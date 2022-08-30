@@ -359,7 +359,7 @@ class Game extends React.Component {
         this.lastLines = [];       // array contain
         this.count = 0;        // number of couple satisfying item case
         this.newItems = [];             // 2-dimension (2d) array contain items whenever items state is changed
-        this.time = 420;
+        this.time = 430;
         // localStorage.setItem('listScore', JSON.stringify([1000,2000,3000]));
         this.listScore = localStorage.getItem('listScore') ? JSON.parse(localStorage.getItem('listScore')) : new Array(5);
         this.listScoreLength = 5;
