@@ -18,8 +18,9 @@ class Game extends React.Component {
      */
     reloadHandler = () => {
         if(this.state.reload <= 0) {
-            if(window.confirm('You lost! Restart game?')) {this.renew();}
+            if(window.confirm('Hết lượt đổi lại nên thua rồi nha!!! Gà')) {this.renew();}
         }else{
+            window.alert('Hết nước đi roài nên đổi lại 1 chút nhaaaa !')
             const oldItems = this.state.items.slice();
             const _newItems = reloadBoard(oldItems, this.row, this.col, this.amount);
 
@@ -52,7 +53,7 @@ class Game extends React.Component {
         this.listPosItem = getListPosItem(_newItems, this.row, this.col, this.amount);
     };
     onTimeout = () =>{
-        if(window.confirm('You lost cuz timeout! Restart game?')) {this.renew();}
+        if(window.confirm('Hết giờ rồi nha!!! Thua ~~~ Gà!')) {this.renew();}
     };
 
     /**
@@ -562,7 +563,7 @@ class Game extends React.Component {
         this.setState({
             items: _newItems,
             score: 0,
-            reload: 10,
+            reload: 15,
             time: this.time,
             level: 1,
             isNew: true
