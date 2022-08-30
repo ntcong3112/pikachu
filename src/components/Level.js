@@ -166,6 +166,7 @@ const move3OutTopDown = (board, rowIndex, colIndex) => {
     return board;
 };
 
+
 // ------------------------endLevel3------------------------------
 //
 export { moveTop2Down, moveDown2Top, moveRight2Left, moveLeft2Right, move3CenterLeftRight, move3CenterTopDown, move3OutLeftRight, move3OutTopDown };
