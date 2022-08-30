@@ -1,6 +1,13 @@
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
+    background-color: #f3e5e5;
+    zoom: 140%;
+}
+
+.pokemon_img{
+    height: 51px;
+    width: 41px;
 }
 
 ol,
@@ -75,14 +82,15 @@ ul {
     margin-left: 20px;
 }
 .game-board {
-    width: 70%;
+    /* width: 80%; */
+    justify-content: center;
     alignment: center;
 }
 .score-board {
     margin-left: 20px;
     font-family: Arial;
     font-size: 20px;
-    width: 30%;
+    width: 20%;
 }
 
 hr {

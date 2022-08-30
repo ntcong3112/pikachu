@@ -656,10 +656,10 @@ class Game extends React.Component {
                     {/* <Fireworks width={1000} height={1000}></Fireworks> */}
                 </div>
 
-                <hr/>
+                {/* <hr/> */}
 
                 <div className="score-board">
-
+                    <h2>PINACHU</h2>
                     <h2 className={'level'} >Mức độ iu NTC: {this.state.level}</h2>
                     <h3 className={'score'} >Số lần tét đoét Vịt Hà: {this.state.score}</h3>
                     <h4 className={'reload'} >Số lần đổi lại: {this.state.reload}</h4>
