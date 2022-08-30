@@ -13,6 +13,7 @@ class ScoreLine extends React.Component{
 
 class ScoreBoard extends React.Component{
     render(){
+        
 
         const listScore = this.props.score.map((value, index) =>{
             return <ScoreLine index={index} value={value}></ScoreLine>
